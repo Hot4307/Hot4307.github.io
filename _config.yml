@@ -1,0 +1,10 @@
+# 强制使用UTF-8编码
+encoding: UTF-8
+
+# 设置默认内容类型
+defaults:
+  - scope:
+      path: ""
+      type: "html"
+    values:
+      content_type: "text/html; charset=UTF-8"
